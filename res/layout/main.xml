@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for SearchableActivity.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/light_background">
+    <TextView
+            android:id="@+id/text"
+            android:textSize="17dp"
+            android:text="@string/search_instructions"
+            android:background="@android:drawable/title_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:textColor="@color/light_font"
+    		android:shadowColor="@color/text_shadow"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2" />
+    <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" 
+										 />
+</LinearLayout>
+
+

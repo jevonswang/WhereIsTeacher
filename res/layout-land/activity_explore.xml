@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="10dp"
+    android:paddingBottom="0dp"
+    tools:context=".About" >
+
+    <TextView
+        android:id="@+id/AboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Floor Level"
+        android:textColor="#141414"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:text="4"
+        android:textSize="72sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:text="3"
+        android:textSize="72sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/AboutTitle"
+        android:layout_below="@+id/AboutTitle"
+        android:background="@null"
+        android:text="2"
+        android:textSize="72sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/AboutTitle"
+        android:layout_below="@+id/AboutTitle"
+        android:background="@null"
+        android:text="1"
+        android:textColor="#555555"
+        android:textSize="72sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

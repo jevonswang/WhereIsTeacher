@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">老师在哪儿</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">关于老师在哪儿</string>
+    <string name="title_activity_search">查找房间</string>
+    <string name="title_activity_explore">探索浙大</string>
+    <string name="About">关于</string>
+    <string name="Main">主界面</string>
+    <string name="search">搜索</string>
+    <string name="explore">搜索</string>
+    <string name="Title">老师在哪儿</string>
+    <string name="RoomFinder"><b>老师在哪儿  v1.1 特点</b>\n-查找教职员工和教室\n-快速精确的获取结果\n语音查找\n\n<b>待添加功能</b>\n-查找其他部分\n\n<b>开发者</b>\n-梁帅龙\n-王哲峰\n </string>
+    <string name="search_label">查找</string>
+    <string name="search_hint">搜索老师姓名</string>
+    <string name="settings_description">老师信息</string>
+    <string name="search_instructions">在上方的搜索框中查找老师信息</string>
+
+    <!-- The menu entry that invokes search. -->
+    <string name="menu_search">查找</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+      <item quantity="one"> 对于 \"%2$s\"共找到：%1$d 个结果 </item>
+      <item quantity="other">对于 \"%2$s\"共找到：%1$d 个结果 </item>
+    </plurals>
+
+    <!-- Search failure message. -->
+    <string name="no_results">抱歉，没有找到 \"%s\"的信息 </string>
+    
+    <string name="title_activity_display_message">我的消息</string>
+    <string name="map">地图</string>
+    
+</resources> 

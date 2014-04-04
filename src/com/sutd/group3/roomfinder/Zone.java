@@ -1,0 +1,16 @@
+package com.sutd.group3.roomfinder;
+
+public enum Zone {
+	LIGHT_GREEN,
+	DARK_GREEN,
+	LIGHT_YELLOW,
+	DARK_YELLOW,
+	LIGHT_ORANGE,
+	DARK_ORANGE,
+	LIGHT_PURPLE,
+	DARK_PURPLE,
+	LIGHT_PINK,
+	DARK_PINK,
+	LIGHT_BLUE,
+	DARK_BLUE
+}

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+	android:paddingBottom="0dp"
+    android:padding="10dp"
+    tools:context=".About" >
+
+    <TextView
+        android:id="@+id/AboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/About"
+        android:layout_marginTop="10dp"
+        android:textSize="50sp"
+        android:typeface="sans" 
+        android:textStyle="bold" 
+        android:textColor="#141414" />
+
+    <ImageView
+        android:id="@+id/SUTDLogo"
+        android:layout_width="120dp"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:src="@drawable/sutd_logo" />
+
+    <Button
+        android:id="@+id/buttonMain"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="0dp"
+        android:background="@null"
+        android:onClick="toMain"
+        android:padding="0dp"
+        android:text="@string/Main"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMain"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/buttonMain"
+        android:layout_alignParentRight="true"
+        android:layout_margin="0dp"
+        android:onClick="toMain"
+        android:background="@drawable/main_icon" />
+
+    <TextView
+        android:id="@+id/FeaturesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/AboutTitle"
+        android:layout_marginLeft="-60dp"
+        android:layout_below="@+id/AboutTitle"
+        android:layout_marginTop="16dp"
+        android:text="@string/RoomFinder"
+        android:textColor="#141414" />
+
+
+</RelativeLayout>
